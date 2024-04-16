@@ -47,7 +47,7 @@
 
 #![no_std]
 #![deny(warnings, missing_docs)]
-#![cfg_attr(feature = "async", feature(async_fn_in_trait))]
+#![cfg_attr(feature = "async", allow(async_fn_in_trait))]
 
 use bit_field::BitField;
 use core::ops::RangeInclusive;
